@@ -1,0 +1,15 @@
+
+References: 
+
+Wiki page: https://en.wikipedia.org/wiki/Iris_flower_data_set
+Data set: 
+
+This data set consists of 50 samples of each of three types of iris, all collected under the same conditions (location, time, measurement apparatus and method) to minimise any unexpected variation in the plant samples. 
+
+Four features were measured; length of sepals, length of petals, width of sepals, and width of petals. The species was also noted.
+
+
+Findings:
+Unseparated by class, there appears to be strong correlation between sepal length and petal length, and between sepal length and petal width, and between petal length and petal width. Sepal width, however, seems to be uncorrelated with anything. 
+
+

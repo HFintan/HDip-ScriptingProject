@@ -40,19 +40,23 @@ Four features were measured; length of sepals, length of petals, width of sepals
 Findings:
 The mean, standard deviation, min and max etc, for the entire sample set are as follows.
 
-        sepalLength  sepalWidth  petalLength  petalWidth
-mean      5.843333    3.054000     3.758667    1.198667
-std       0.828066    0.433594     1.764420    0.763161
-min       4.300000    2.000000     1.000000    0.100000
-max       7.900000    4.400000     6.900000    2.500000
+Sepal length
+mean 5.84333, standard deviation 0.828066, min 4.3, max 7.9
+
+Sepal Width
+mean 3.054, standard deviation 0.433594, min 2, max 4.4
+
+Petal length
+mean 3.758667, standard deviation 1.76442, min 1, max 6.9
+
+Petal width
+mean 1.19, standard deviation 0.763161, min 0.1, man 2.5
 
 Further info on the individual species is available in iris.pdf.
 
-Unseparated by class, there appears to be strong correlation between sepal length and petal length, and between sepal length and petal width, and between petal length and petal width. Sepal width, however, seems to be uncorrelated with anything.
+
+
+Unseparated by class, there appears to be strong correlation between sepal length and petal length (0.871754), and between sepal length and petal width (0.817954), and between petal length and petal width(0.962757). Sepal width, however, seems to not be strongly correlated with anything.
 Interestingly, when all the species are taken together, everything appears strongly correlated bar the sepal width, but when the species are taken separately, the correlation is much weaker, which I guess makes sense because the variance, relatively speaking, is smaller. A group of plants comprised of bonzai and a sequoia would exhibit a stronger correlation between branch length and thickness than the sequoia would on their own, for example.
-
-
-
-
 
 
